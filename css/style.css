@@ -2,6 +2,9 @@
 @import "normalize.css";
 @import "variables.css";
 
+@import "./blocks/header.css";
+@import "./blocks/registratom.css";
+
 
 
 
@@ -40,92 +43,9 @@ a{
     border-radius: 5px;
 }
 
-.main-header{
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding-inline: 95px;
-    background-color: var(--color-dark);
-    min-height: var(--header-height);
-    column-gap: 20px;
-}
-.main-nav-item{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    column-gap: 40px;
-}
-.main-logo{
-    font-weight: 700;
-    font-size: 30px;
-}
-.main-logo a{
 
 
-}
-.main-logo a:hover{
-    color: var(--color-orange);
-    animation-duration: var(--transition-duration);
-}
-.main-nav-list{
-    font-weight: 400;
-    font-size: clamp(20px, 1.04vw, 20px);
-    color: var(--color-light);
-}
-.main-nav-list a:hover{
-    color: var(--color-orange);
-    animation-duration: var(--transition-duration);
-}
 
-.main-nav-number{
-    font-size: clamp(25px, 1.56vw, 30px);
-    font-weight: 600;
-}
-.main-nav-number{
-    color: var(--color-orange);
-    animation-duration: var(--transition-duration);
-}
-.main-nav-number a{
-    color: var(--color-light);
-    text-decoration: none;
-}
-.registration{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: var(--color-dark);
-    column-gap: 160px;
-    padding-top: 92px;
-    margin-bottom: 120px;
-
-}
-.registration-text{
-    display: flex;
-    flex-direction: column;
-}
-.main-title{
-    font-weight: 600;
-    font-size: clamp(50px, 3.65vw, 70px);
-    color: var(--color-light);
-    margin-bottom: 20px;
-}
-.registration-paragraph{
-    font-size: clamp(15px, 1.04vw, 20px);
-    color: var(--color-light);
-    margin-bottom: 50px;
-}
-.registration-link{
-    color: var(--color-light);
-    text-decoration: none;
-    font-size: 18px;
-    text-align: center;
-
-}
-
-.registration-image-girl{
-    width: 783px;
-    height: auto;
-}
 .advantages-presentation-text{
     font-weight: 600;
     font-size: 30px;
