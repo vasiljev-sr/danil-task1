@@ -1,0 +1,20 @@
+
+
+
+:root{
+    --color-dark: #141024;
+    --color-light: #FFFFFF;
+    --color-orange: #D52027;
+    --color-grey: #C4C4C4;
+
+    --container-width: 1166px;
+    --container-padding-x: 5px;
+
+    --transition-duration: 0.2s;
+
+    --font-family: 'Jost', 'sans-serif';
+
+    --header-height: 90px;
+
+
+}
